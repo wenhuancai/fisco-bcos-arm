@@ -1,6 +1,5 @@
 FROM ubuntu:22.04 as builder
 LABEL maintainer service@fisco.com.cn
-
 WORKDIR /
 
 ARG SOURCE_BRANCH
